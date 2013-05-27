@@ -2,7 +2,7 @@
 Adds static [SIML](https://github.com/padolsey/SIML) support to [Brunch](http://brunch.io).
 
 ## How it Works
-siml-static-brunch searches the "templates.joinTo" directory and compiles any file with the `.siml` extension, excluding the assests directory. The compiled HTML is placed in the public folder in a directory matching wherever the `.siml` file was located within the "templates.joinTo" directory.
+siml-static-brunch searches the `templates.joinTo` directory and compiles any file with the `.siml` extension, excluding the assets directory. The compiled HTML is placed in the public folder in a directory matching wherever the `.siml` file was located within the `templates.joinTo` directory.
 
 ## Usage
 Install the plugin via npm with `npm install --save siml-static-brunch`.
@@ -23,7 +23,7 @@ exports.config =
     templates:
       defaultExtension: 'siml'
       joinTo:
-        'siml-static-brunch': /^app/ # dirty hack for SIML compilation; can be whatever you want as it will be deleted by siml-static-brunch
+        'siml-static-brunch': /^app/ # dirty hack for SIML compilation; key can be whatever you want as it will be deleted by siml-static-brunch
   
   # you can turn pretty print on here
   plugins:
