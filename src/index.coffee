@@ -24,7 +24,7 @@ module.exports = class SIMLCompiler
     @generator = config.plugins?.siml?.generator
     
     # default to html5 generator if none is specified
-    @generator = 'html5' if @generator isnt 'html5' or @generator isnt 'angular'
+    @generator = 'html5' if @generator isnt 'html5' and @generator isnt 'angular'
   
   # Basically does nothing except test compilation and throw an error if compilation fails
   compile: (data, path, callback) ->
