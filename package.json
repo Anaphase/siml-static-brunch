@@ -1,7 +1,7 @@
 {
   "name": "siml-static-brunch",
   "version": "1.0.0",
-  "description": "Adds static SIML support to brunch.",
+  "description": "Adds static SIML support to Brunch.",
   "author": "Colin Wood",
   "homepage": "https://github.com/Anaphase/siml-static-brunch",
   "repository": {
