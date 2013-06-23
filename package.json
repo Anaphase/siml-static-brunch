@@ -1,6 +1,6 @@
 {
   "name": "siml-static-brunch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds static SIML support to Brunch.",
   "author": "Colin Wood",
   "homepage": "https://github.com/Anaphase/siml-static-brunch",
@@ -13,7 +13,7 @@
     "prepublish": "rm -rf lib && node_modules/.bin/coffee --bare --output lib/ src/"
   },
   "dependencies": {
-    "siml": "~0.3.3",
+    "siml": "~0.3.6",
     "mkdirp": "~0.3.5"
   },
   "devDependencies": {
