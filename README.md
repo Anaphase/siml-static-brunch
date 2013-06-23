@@ -1,10 +1,16 @@
-## siml-static-brunch
+siml-static-brunch
+==================
+
 Adds static [SIML](https://github.com/padolsey/SIML) support to [Brunch](http://brunch.io).
 
-## How it Works
+How It Works
+------------
+
 siml-static-brunch searches the `templates.joinTo` directory and compiles any file with the `.siml` extension, excluding the assets directory. The compiled HTML is placed in the public folder in a directory matching wherever the `.siml` file was located within the `templates.joinTo` directory.
 
-## Usage
+Usage
+-----
+
 Install the plugin via npm with `npm install --save siml-static-brunch`.
 
 Or, do manual install:
@@ -12,7 +18,9 @@ Or, do manual install:
 * Add `"siml-static-brunch": "x.y.z"` to `package.json` of your Brunch app. Pick a plugin version that corresponds to your minor (y) Brunch version.
 * If you want to use git version of plugin, add `"siml-static-brunch": "git+ssh://git@github.com:Anaphase/siml-static-brunch.git"`.
 
-## Sample Brunch config.coffee
+Sample Brunch config.coffee
+---------------------------
+
 ```coffee-script
 exports.config =
   
@@ -32,7 +40,8 @@ exports.config =
       generator: 'angular' # default is 'html5'
 ```
 
-## License
+License
+-------
 
 The MIT License (MIT)
 
