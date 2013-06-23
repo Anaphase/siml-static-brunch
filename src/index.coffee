@@ -22,7 +22,7 @@ module.exports = class SIMLStaticBrunch
     @rootDir = config.files.templates.joinTo[@junkFile]
     
     # options
-    @pretty = !!config.plugins?.siml?.pretty
+    @pretty = if !config.plugins?.siml?.pretty? then yes else config.plugins?.siml?.pretty 
     @generator = config.plugins?.siml?.generator
     
     # default to html5 generator if none is specified

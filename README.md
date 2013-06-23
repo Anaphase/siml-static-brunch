@@ -25,11 +25,11 @@ exports.config =
       joinTo:
         'siml-static-brunch': /^app/ # dirty hack for SIML compilation; key can be whatever you want as it will be deleted by siml-static-brunch
   
-  # you can turn pretty print on here
+  # you can turn off pretty print here
   plugins:
     siml:
+      pretty: no # default is yes
       generator: 'angular' # default is 'html5'
-      pretty: yes # default is no
 ```
 
 ## License
